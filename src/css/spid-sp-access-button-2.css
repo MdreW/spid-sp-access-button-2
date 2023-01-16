@@ -1,0 +1,32 @@
+
+.spid-button {}
+
+.spid-button {
+  font-family: "Titillium Web", HelveticaNeue, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+}
+
+.spid-button .spid-button-logo {
+  display: inline-block;
+  margin: -12px 18px -12px -22px;
+  border-right: rgba(255, 255, 255, 0.1) 0.1em solid;
+  padding: 6px;
+}
+
+.spid-button .spid-button-logo img{
+  height: 2.4rem; 
+}
+
+.spid-button ul.dropdown-menu li a {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.spid-button ul.dropdown-menu li a:hover {
+  color: #036;
+  cursor: pointer;
+  background-color: #F0F0F0;
+}
+
+.spid-button ul.dropdown-menu li a img {
+  height: 1.5rem;
+}
