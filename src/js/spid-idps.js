@@ -44,7 +44,6 @@ function search() {
 // - entityID - string with IDP entityID
 // - logo - url of IDP logo image
 
-
 // ** Values **
 const urlParams = new URLSearchParams(window.location.search);
 const servicePath = urlParams.get("return");
