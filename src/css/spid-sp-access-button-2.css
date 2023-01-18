@@ -57,3 +57,13 @@
     width: 4.5rem;
 }
 
+.spid-button-xxl button.spid-button {
+  font-size: 3rem;
+  border-radius: .3rem;
+  line-height: 5rem
+}
+
+.spid-button-xxl .spid-button-logo {
+    width: 6.8rem;
+}
+
