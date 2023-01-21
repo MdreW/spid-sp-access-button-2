@@ -6,7 +6,7 @@ var idps = [{"entityName": "SPID Test", "entityID": "https://localhost:8080", "l
 
 // spid_populate function, if '.spid-button[data-spid-remote] ul' exist, try to get the remote json file and pupulate all spid buttons
 function spid_populate() {
-  let spid_elements = document.querySelectorAll('.spid-button[data-spid-remote] ul')
+  let spid_elements = document.querySelectorAll('ul[data-spid-remote]')
   if (spid_elements.length > 0 ) {
     fetch(queryURL)
      .then(function (response) {

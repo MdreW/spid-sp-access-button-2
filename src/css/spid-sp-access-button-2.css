@@ -1,69 +1,65 @@
+button.spid-button {
+  background: #06c;
+  color: #fff;
+  border: solid #06c 0.1rem;
+  padding: 0em 0.75rem 0em 0.25em;
+  line-height: 2.5em;
+  font-size: 1.5rem;
+}
 
-.spid-button {}
+button:hover.spid-button {
+  background: #0053a5;
+  color: #fff;
+  border-color: #004d99;
+}
 
-.spid-button {
+button.spid-button .spid-button-logo {
+  display: inline-block;
+  padding-right: 0.25em;
+  border-right: rgba(255, 255, 255, 0.1) 0.1em solid;
+  width: 2.5em;
+}
+
+button.spid-button .spid-button-logo img {
+  margin: 0.25em 0em;
+  vertical-align: top;
+}
+
+button.spid-button.spid-button-s {
+  font-size: 1rem;
+}
+
+button.spid-button.spid-button-l {
+  font-size: 2rem;
+}
+
+button.spid-button.spid-button-xl {
+  font-size: 2.5rem;
+}
+
+button.spid-button.spid-button-xxl {
+  font-size: 3rem;
+}
+
+button.spid-button, .spid-button-list {
   font-family: "Titillium Web", HelveticaNeue, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
 }
 
-.spid-button .spid-button-logo {
-  display: inline-block;
-  margin: -12px 18px -12px -22px;
-  border-right: rgba(255, 255, 255, 0.1) 0.1em solid;
-  padding: 6px;
-  width: 2.7rem;
-}
-
-.spid-button ul.dropdown-menu li a {
-  padding: 12px;
+ul.dropdown-menu.spid-button-list li a {
   border-bottom: 1px solid #ddd;
+  padding: 1rem
 }
 
-.spid-button ul.dropdown-menu li a:hover {
+ul.dropdown-menu.spid-button-list li:last-child a {
+  border-bottom: none;
+}
+
+ul.dropdown-menu.spid-button-list li a:hover {
   color: #036;
   cursor: pointer;
   background-color: #F0F0F0;
 }
 
-.spid-button ul.dropdown-menu li a img {
-  height: 1.5rem;
+ul.dropdown-menu.spid-button-list li a img {
+  height: 2.5rem;
 }
-
-.spid-button-s button.spid-button {
-  font-size: 0.80rem;
-  line-height: 1rem
-}
-
-.spid-button-s .spid-button-logo {
-    width: 2.2rem;
-}
-
-.spid-button-l button.spid-button {
-  font-size: 1.25rem;
-  border-radius: .3rem;
-  line-height: 2.25rem
-}
-
-.spid-button-l .spid-button-logo {
-    width: 3.5rem;
-}
-
-.spid-button-xl button.spid-button {
-  font-size: 2rem;
-  border-radius: .3rem;
-  line-height: 3rem
-}
-
-.spid-button-xl .spid-button-logo {
-    width: 4.5rem;
-}
-
-.spid-button-xxl button.spid-button {
-  font-size: 3rem;
-  border-radius: .3rem;
-  line-height: 5rem
-}
-
-.spid-button-xxl .spid-button-logo {
-    width: 6.8rem;
-}
-
